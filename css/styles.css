@@ -1,0 +1,95 @@
+
+body  {
+	color: white;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+.navbar {
+	padding: .8rem 10%;
+}
+
+.headerText {
+	padding: 15% 10% 2% 10%;
+	margin: auto;
+	background-color: hsl(256, 26%, 20%);
+	text-align: left;
+}
+
+.mainImage{
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	width: 30em;
+	margin: auto;
+}
+
+.about {
+	margin: 20% 10% 10%;
+	color: hsl(256, 26%, 20%);
+
+}
+/* poster */
+#poster {
+	margin: 15% 10%;
+}
+
+.divPoster {
+	background-color: hsl(256, 26%, 20%);
+	padding: 10% ;
+}
+
+.mass {
+	text-align: right;
+}
+
+#footer {
+	color: hsl(256, 26%, 20%);
+}
+
+.footer {
+	margin: 3% 10% 0;
+}
+
+
+@media only screen and (max-width: 988px) {
+
+	.heroHead {
+		padding: 0;
+		margin: 0;
+		background-color: hsl(256, 26%, 20%);
+		text-align: center;
+	}
+	.headerText {
+		text-align: center;
+	}
+
+	.mainImage{
+		position: static;
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+	}
+
+	.headerText{
+		padding: 7%;
+	}
+
+	#information {
+		text-align: center;
+	}
+
+	#information .row  {
+		margin: 15%;
+	}
+
+	#poster {
+		text-align: center;
+	}
+
+	.mass {
+		text-align: center;
+	}
+}
